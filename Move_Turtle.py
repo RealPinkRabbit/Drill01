@@ -1,5 +1,25 @@
 import turtle
 
+def go_up():
+    turtle.setheading(90)
+    turtle.stamp()
+    turtle.forward(50)
+
+def go_right():
+    turtle.setheading(0)
+    turtle.stamp()
+    turtle.forward(50)
+
+def go_down():
+    turtle.setheading(270)
+    turtle.stamp()
+    turtle.forward(50)
+
+def go_left():
+    turtle.setheading(180)
+    turtle.stamp()
+    turtle.forward(50)
+
 turtle.shape('turtle')
 
 turtle.onkey(go_up, 'w')
